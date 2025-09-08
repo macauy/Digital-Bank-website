@@ -1,0 +1,29 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 999px;
+  min-height: 44px;
+  padding: 0.5rem 1.8rem;
+  font-size: var(--fs-0);
+  transition: filter 0.2s ease, transform 0.02s ease;
+  color: #fff;
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  /* box-shadow: 0 10px 20px rgba(49, 211, 92, 0.25);  */
+}
+
+.btn:hover {
+  filter: brightness(1.05);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
