@@ -11,7 +11,7 @@ const openMenu = () => {
   panel.hidden = false;
   overlay.hidden = false;
   firstLink?.focus();
-  icon.src = "/images/icon-close.svg";
+  icon.src = "./images/icon-close.svg";
 };
 
 const closeMenu = () => {
@@ -20,7 +20,7 @@ const closeMenu = () => {
   panel.hidden = true;
   overlay.hidden = true;
   menuBtn.focus();
-  icon.src = "/images/icon-hamburger.svg";
+  icon.src = "./images/icon-hamburger.svg";
 };
 
 menuBtn.addEventListener("click", () => {
