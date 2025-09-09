@@ -147,7 +147,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("./images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
   background-size: clamp(560px, 115vw, 900px) auto;
   background-position: center -8rem;
@@ -279,7 +279,7 @@
 
   .hero::before {
     inset: 0 calc(50% - 50vw) 0 0;
-    background-image: url("./images/bg-intro-desktop.svg");
+    background-image: url("../images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
     background-size: var(--hero-bg-w) auto;
     background-position: right var(--hero-bg-x) top var(--hero-bg-y);
@@ -331,7 +331,7 @@
 
   .hero::before {
     inset: 0 calc(50% - 50vw) 0 0;
-    background: url("./images/bg-intro-desktop.svg") no-repeat right top / contain;
+    background: url("../images/bg-intro-desktop.svg") no-repeat right top / contain;
     background-position: right -10rem top -10rem;
   }
 
@@ -481,6 +481,11 @@
   aspect-ratio: 16 / 11;
   object-fit: cover;
   object-position: center;
+}
+
+.blog .articles-card:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
 }
 
 @media (min-width: 1024px) {
