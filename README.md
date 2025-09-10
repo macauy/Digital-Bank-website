@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/REPLACE
+- Solution URL: https://www.frontendmentor.io/solutions/digitalbank-landing-page-jU4tQ7hinc
 - Live Site URL: https://macauy.github.io/Digital-Bank-website/
 
 ## My process
